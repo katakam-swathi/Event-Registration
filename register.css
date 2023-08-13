@@ -1,0 +1,172 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.outerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.innerbox{
+    height: 150px;
+    width: 247px;
+    background-color:rgba(247, 235, 235, 0.938)80, 174, 174 ;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.308);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.companyitem{
+    display: flex;
+    color: #444bab;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.308);
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.final{
+    display: flex;
+    margin:30px;
+}  
+.first{
+ margin-left: 25px;
+}
+.second{
+    margin-right: 50px;
+}
+.third{
+    margin-left: 50px;
+}
+
+.centerinner{
+    position: absolute;
+    background-color:#FFFFFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 530px;
+    width: 800px;
+    box-shadow: 4px 5px 5px 5px rgba(128, 128, 128, 0.055);
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Event{
+    color: rgba(59, 52, 52, 0.726);
+    margin-bottom: 30px;
+    font-family: poppins;
+}
+form label{
+    color: rgba(59, 52, 52, 0.726);
+   font-family: poppins;
+}
+.registername{
+    height: 40px;
+    width: 340px;
+    margin-bottom: 20px;
+
+}
+.registeremail{
+    height: 40px;
+    width: 340px;
+    margin-bottom: 20px;
+}
+.registernumber{
+    height: 40px;
+    width: 340px;
+    margin-bottom: 20px;
+
+}
+.registercollage{
+    height: 40px;
+    width: 340px;
+    margin-bottom: 20px;
+
+}
+.register{
+    height: 45px;
+    width: 350px;
+    background-color:#444BAB;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: poppins;
+    color:white;
+    font-size: medium;
+
+}
+.fa-sharp{
+    position: absolute;
+    left: 94%;
+    bottom: 91%;
+    transform: translate(-50%,-50%);
+    size: 40px;
+}
+.outer{
+    margin: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+   
+}
+ 
+.innerinner{
+    position: absolute;
+    background-color:#FFFFFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 600px;
+    box-shadow: 4px 5px 5px 5px rgba(128, 128, 128, 0.055);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+}
+.c{
+    text-align: center;
+    margin-top:10px;
+    font-size: 40px;
+    
+}
+.p{
+    font-size: 20px;
+    color: rgba(90, 88, 88, 0.967);
+    text-align: center;
+    margin: 20px;
+    
+}
+.b{
+    background-color: #444BAB;
+    width: 530px;
+    height: 80px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: poppins;
+    font-size: medium;
+
+}  
+.p1{
+    text-align: center;
+    font-size: medium;
+    font-family: poppins;
+    color: rgb(108, 107, 107);
+} 
+.icon{
+width: 100px;
+height: 400px;   
+}
+
+
